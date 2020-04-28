@@ -15,6 +15,7 @@ if ( \OCP\Util::getVersion()[0] >= 12 )
 		<?php } else { ?>
 		<ul class="msg">
 			<li><?php p($l->t('Welcome, you can create your account below.'));?></li>
+			<li><?php p($l->t('Passwords must be at least 10 characters long. They must contain at least one uppercase character, one lowercase character, one numerical character and one special symbol (such as ! or :).'));?></li>
 		</ul>
 		<?php } ?>
 		<p class="grouptop">
